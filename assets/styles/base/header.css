@@ -1,0 +1,38 @@
+/* HEADER */
+
+.header {
+    background-color: #000;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    height: 11.1rem;
+}
+
+.header__img {
+    width: 13.5rem;
+    height: 6rem;
+    margin-right: 6.4rem;
+}
+
+.header__buttons {
+    color: #fff;
+    font-size: 1.4rem;
+    line-height: 1.68rem;
+    margin-right: 4.1rem;
+    transition: all .25s;
+}
+
+.header__buttons:hover {
+    color: #d97b7b;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+}
+
+.selected {
+    color: #d97b7b;
+    text-decoration: underline;
+    text-underline-offset: 7px;  
+}

@@ -1,0 +1,95 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body {
+    box-sizing: border-box;
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    background-color: #fffff1;
+    overflow: overlay;
+}
+body::-webkit-scrollbar {
+    width: 0.7rem;
+}
+body::-webkit-scrollbar-track {
+    background: inherit;
+    background: transparent;
+}
+body::-webkit-scrollbar-thumb {
+    background: #1a1a1a;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+body::-webkit-scrollbar-thumb:hover {
+    background: #07070a;
+}
+main {
+    position: relative;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+img.alignright {
+    float: right;
+    margin: 0 0 1em 1em;
+}
+img.alignleft {
+    float: left;
+    margin: 0 1em 1em 0;
+}
+img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+button {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    border-radius: 0;
+}
+input, textarea, select {
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    outline: none;
+    border: none;
+    font-family: inherit;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.wrapper {
+    margin-inline: auto;
+    width: 90%;
+    max-width: 1224px;
+}
+.s-wrapper {
+    margin-inline: auto;
+    width: 82%;
+    max-width: 1111px;
+}
+
+.fade-in {
+    opacity: 0;
+    transform: scale(10%);
+    animation: fadeInAnimation 1.2s ease forwards;
+}
+
+@keyframes fadeInAnimation {
+
+    to {
+        opacity: 1;
+        transform: scale(100%);
+    }
+}

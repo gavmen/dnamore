@@ -1,0 +1,94 @@
+body {
+    background-color: grey;
+}
+
+/* DNAMORE */
+
+.dnamore {
+    background-color: #fff;
+}
+
+.dnamore__img {
+    height: 57.6rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.dnamore__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 0;
+}
+
+.dnamore__container > h2 {
+    font-size: 4.8rem;
+    margin-bottom: 3.2rem;
+    font-weight: 400;
+}
+
+.dnamore__container > p {
+    max-width: 75.2rem;
+    font-size: 1.6rem;
+    text-align: center;
+    margin-bottom: 5rem;
+    line-height: 2.4rem;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.dnamore__photos {
+    display: flex;
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+/* RESERVA */
+
+.reserva {
+    background-color: #000;
+}
+
+.reserva__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13rem;
+    padding: 5rem 0;
+    /* height: 100vh; */
+}
+
+.reseva__content {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    max-width: 39rem;
+}
+
+.reseva__content > h3 {
+    color: #fff;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.reseva__content > a {
+    color: #fff;
+    /* padding: 2rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5c1616;
+    font-weight: 500;
+    font-size: 1.6rem;
+    transition: .2s all ease;
+    width: 14.4rem;
+    height: 5.4rem;
+    text-transform: uppercase;
+}
+
+.reseva__content > a:hover {
+    background-color: #1a1a1a;;
+}
+
+.reseva__img {
+
+}

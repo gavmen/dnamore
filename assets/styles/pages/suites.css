@@ -1,0 +1,116 @@
+/* BANNER SUÍTES */
+
+.banner {
+    background-color: #5c1616;
+    height: 14.7rem;
+}
+
+.banner div {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.banner h1 {
+    color: #fff;
+    font-size: 5.6rem;
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+}
+
+/* SUÍTES */
+
+.suites {
+
+}
+
+.suites__itens:nth-of-type(even) {
+    background-color: rgb(29, 30, 32);
+    color: #fff;
+}
+
+.suites__itens:nth-of-type(odd) {
+    background-color: #000;
+    color: #fff;
+}
+
+.suites__itens:nth-of-type(even) > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 21.8rem;
+}
+
+.suites__itens:nth-of-type(odd) > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 21.8rem;
+}
+
+.suites__content {
+    max-width: 51.5rem;
+    font-family: 'Oswald', sans-serif;
+    margin-top: -5.5rem;
+}
+
+.suites__content h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3.75rem;
+    margin-bottom: 1.6rem;
+}
+
+.suites__content h3 {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    font-family: 'DM Sans', sans-serif;
+    margin-bottom: 3.2rem;
+}
+
+.suites__content span {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    font-family: 'DM Sans', sans-serif;
+    margin-bottom: 3.2rem;
+}
+
+.suites__content ul {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 5rem;
+    margin-bottom: 3.2rem;
+}
+
+.suites__content li {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    font-family: 'DM Sans', sans-serif;
+    margin-bottom: 3.2rem;
+    margin-left: 4.8rem;
+}
+
+.suites__content > a {
+    color: #fff;
+    /* padding: 2rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5c1616;
+    font-weight: 500;
+    font-size: 1.6rem;
+    transition: .2s all ease;
+    width: 23.6rem;
+    height: 5.4rem;
+    text-transform: uppercase;
+}
+
+.suites__content > a:hover {
+    background-color: #1a1a1a;;
+}
