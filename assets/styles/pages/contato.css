@@ -1,0 +1,49 @@
+/* BANNER CONTATO */
+
+.banner {
+    background-color: #5c1616;
+    height: 14.7rem;
+}
+
+.banner div {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.banner h1 {
+    color: #fff;
+    font-size: 5.6rem;
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+}
+
+/* TELEFONE */
+
+.telefone {
+    background-color: #000;
+    color: #fff;
+}
+
+.telefone__container {
+    height: calc(100vh - 24.5rem - 11rem - 14.8rem);
+    padding-top: 3rem;
+    padding-left: 1rem;
+}
+
+.telefone__container h3 {
+    font-size: 4.8rem;
+    margin-bottom: 3rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+.telefone__container a {
+    font-size: 2.4rem;
+    font-family: 'DM Sans', sans-serif;
+    transition: all .3s ease;
+}
+
+.telefone__container a:hover {
+    text-decoration: underline;
+}

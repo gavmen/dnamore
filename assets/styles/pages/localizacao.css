@@ -1,0 +1,55 @@
+/* BANNER LOCALIZACAO */
+
+.banner {
+    background-color: #5c1616;
+    height: 14.7rem;
+}
+
+.banner div {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.banner h1 {
+    color: #fff;
+    font-size: 5.6rem;
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+}
+
+/* LOCALIZACAO */
+
+.localizacao {
+    background-color: #000;
+    color: #fff;
+}
+
+.localizacao__container {
+    height: calc(100vh - 24.5rem - 11rem - 14.8rem);
+    padding: 3rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.localizacao__container > div {
+    margin-top: -12rem;
+}
+
+.localizacao__container h3 {
+    font-size: 2.4rem;
+    margin-bottom: 3rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+.localizacao__container a {
+    font-size: 1.8rem;
+    font-family: 'DM Sans', sans-serif;
+    transition: all .3s ease;
+}
+
+.localizacao__container a:hover {
+    text-decoration: underline;
+}
