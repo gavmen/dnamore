@@ -40,6 +40,23 @@ body {
     display: flex;
     gap: 1.5rem;
     margin: 2rem 0;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 600px) {
+
+    .dnamore__container h2 {
+        font-size: 3.2rem;
+    }
+
+    .dnamore__img {
+        height: 23.5rem;
+    }
+
+    .reseva__content h3 {
+        font-size: 1.6rem;
+    }
+
 }
 
 /* RESERVA */
@@ -54,6 +71,7 @@ body {
     align-items: center;
     gap: 13rem;
     padding: 5rem 0;
+    flex-wrap: wrap;
     /* height: 100vh; */
 }
 
@@ -90,5 +108,29 @@ body {
 }
 
 .reseva__img {
+    display: block;
+}
+
+.reseva__img--mobile {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+
+    .reseva__content h3 {
+        font-size: 1.6rem;
+    }
+
+    .reseva__img {
+        display: none;
+    }
+
+    .reseva__img--mobile {
+        display: block;
+    }
+
+    .reseva__content {
+        align-items: center;
+    }
 
 }
