@@ -18,6 +18,18 @@
     width: 100%;
 }
 
+@media screen and (max-width: 600px) {
+
+    .banner {
+        height: 10.3rem;
+    }
+
+    .banner h1 {
+        font-size: 3.6rem;
+    }
+
+}
+
 /* TELEFONE */
 
 .telefone {
@@ -46,4 +58,12 @@
 
 .telefone__container a:hover {
     text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+
+    .telefone__container {
+        height: calc(100vh - 30.4rem - 11rem - 10.3rem);
+    }
+
 }

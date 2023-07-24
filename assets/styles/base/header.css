@@ -68,12 +68,14 @@
         transform: translateY(-1rem);
         position: absolute;
         transition: opacity 0.5s ease, transform 0.5s ease, visibility 0s linear 0.5s, max-height linear 5s;
+        z-index: -3;
     }
     
     .mobile-menu--open {
         opacity: 1;
         transform: translateY(0);
         transition-delay: 0s;
+        z-index: unset;
     }
     
 

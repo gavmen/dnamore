@@ -18,6 +18,18 @@
     width: 100%;
 }
 
+@media screen and (max-width: 600px) {
+
+    .banner {
+        height: 10.3rem;
+    }
+
+    .banner h1 {
+        font-size: 3.6rem;
+    }
+
+}
+
 /* LOCALIZACAO */
 
 .localizacao {
@@ -52,4 +64,18 @@
 
 .localizacao__container a:hover {
     text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+
+    .localizacao__container {
+        flex-wrap: wrap;
+        height: auto;
+        gap: 2rem;
+    }
+
+    .localizacao__container > div {
+        margin: 0;
+    }
+
 }

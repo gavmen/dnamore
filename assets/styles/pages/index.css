@@ -40,10 +40,14 @@ body {
     display: flex;
     gap: 1.5rem;
     margin: 2rem 0;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 @media screen and (max-width: 600px) {
+
+    .dnamore__photos {
+        flex-direction: column;
+    }
 
     .dnamore__container h2 {
         font-size: 3.2rem;
